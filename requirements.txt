@@ -1,0 +1,12 @@
+# Dependências principais do EcoScreen
+
+sounddevice          # Captura e reprodução de áudio em tempo real
+numpy                # Processamento de áudio (panning, pitch, volume)
+pygame               # Reprodução de sons e efeitos simples
+pyttsx3              # Síntese de voz (TTS) - fácil de usar
+pynput               # Captura de movimentos do mouse (para o Sound Saber)
+pywin32; platform_system == "Windows"  # Integração com Windows (opcional)
+
+# Para desenvolvimento
+black                # Formatador de código
+flake8               # Verificador de qualidade
