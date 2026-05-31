@@ -1,50 +1,48 @@
 # EcoScreen 🌍🔊
 
-**Sua tela, agora com som e direção.**
+**Your screen, now with sound and direction.**
 
-EcoScreen é um projeto open-source de **acessibilidade** que transforma a interface do computador em uma **tela sonora** simples e intuitiva, especialmente pensada para pessoas cegas ou com baixa visão.
+EcoScreen is an open-source accessibility project that transforms your computer screen into a **spatial audio interface**, specially designed for blind and visually impaired people.
 
-Utilizamos sons direcionais (panning, pitch e volume) + voz sintetizada para criar um "ecrã sonoro" que permite sentir onde está o mouse, os ícones e as bordas da tela — tudo sem depender de áudio binaural complexo.
+Using directional sounds (panning, pitch, and volume) + synthesized voice, it creates a "sound screen" that allows the user to feel where the mouse is, where the icons are, and the screen borders — without relying on complex binaural audio.
 
-### ✨ O que é o Sound Saber?
-O **Sound Saber** é o cursor sonoro inteligente do EcoScreen.  
-Enquanto você move o mouse, ele emite sons que indicam:
-- Posição na tela (esquerda/direita, cima/baixo)
-- Quando passa sobre ícones, botões ou textos
-- Bordas da tela (como uma moldura sonora)
+### ✨ What is Sound Saber?
+**Sound Saber** is EcoScreen’s intelligent audio cursor.  
+As you move the mouse, it produces sounds that indicate:
+- Horizontal position (left/right)
+- Vertical position (top/bottom)
+- Screen borders (with a distinct continuous sound)
 
-### 🎯 Objetivo
-Permitir que pessoas cegas naveguem na tela do computador de forma mais espacial e natural, complementando ou evoluindo os leitores de tela tradicionais (NVDA, VoiceOver, etc.).
+### 🎯 Goal
+To allow blind people to navigate the computer screen in a more spatial and natural way, complementing or evolving traditional screen readers (NVDA, VoiceOver, etc.).
 
-"Colaborativismo: Ajuda mútua entre pessoas" — esse ainda é o nosso lema.
+"Colaborativismo: Mutual help between people" — this is still our motto.
 
-### 🚀 Status atual do projeto
-- Fase 1 em planejamento (EcoScreen Desktop)
-- Foco inicial: Windows + Python
-- Totalmente open-source e comunitário
+### 🚀 Current Project Status
+- Phase 1 in development (EcoScreen Desktop)
+- Focus: Windows + Linux
+- Fully open-source and community-driven
 
-### 🛠️ Tecnologias que vamos usar
+### 🛠️ Technologies
 - Python
-- sounddevice + numpy (áudio em tempo real)
-- pyttsx3 ou Piper TTS (voz sintetizada)
-- UI Automation / NVDA API (leitura da tela)
-- Pygame / simpleaudio (efeitos sonoros)
+- sounddevice + numpy (real-time audio)
+- pyttsx3 (text-to-speech)
+- pynput (mouse tracking)
 
-### Como contribuir
-Toda ajuda é bem-vinda!  
-Seja você programador, pessoa cega, designer de som, testador ou apenas alguém que acredita no projeto — sua participação faz diferença.
+### How to Contribute
+All help is welcome! Whether you are a programmer, blind user, sound designer, tester, or just someone who believes in the project — your participation makes a difference.
 
-1. Dê um **Star** no projeto ⭐
-2. Abra uma **Issue** contando sua ideia ou dificuldade
-3. Faça um **Pull Request**
+1. Give the project a **Star** ⭐
+2. Open an **Issue** with ideas or problems
+3. Submit a **Pull Request**
 
-### Licença
-Este projeto está sob a licença **MIT** — você é livre para usar, modificar e distribuir.
+### License
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
 
 ---
 
-**Vamos construir juntos uma ferramenta que realmente faça diferença.**
+**Let's build together a tool that truly makes a difference.**
 
-Feito com ❤️ por Carlos Eduardo e comunidade
+Made with ❤️ by Carlos Eduardo and the community
 
-[Site](https://github.com/AvilaFirsti/ecoscreen) • [Discussões](https://github.com/AvilaFirsti/ecoscreen/discussions) • [Issues](https://github.com/AvilaFirsti/ecoscreen/issues)
+[GitHub](https://github.com/AvilaFirsti/ecoscreen) • [Discussions](https://github.com/AvilaFirsti/ecoscreen/discussions) • [Issues](https://github.com/AvilaFirsti/ecoscreen/issues)
